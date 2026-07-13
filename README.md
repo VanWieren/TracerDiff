@@ -51,7 +51,7 @@ TracerDiff solves for both topography (sediment transport) and the advection of 
   respiration/loss).
 
 The solver is a Crank-Nicolson finite-difference scheme with a
-matrix-free Newton-Krylov (conjugate-gradient) nonlinear solve at each step,
+matrix-free Newton (conjugate-gradient) nonlinear solve at each step,
 implemented in [JAX](https://github.com/jax-ml/jax) and JIT-compiled for
 speed.
 
