@@ -61,7 +61,7 @@ speed.
 TracerDiff/
 ├── src/tracerdiff/       # the installable package
 │   ├── model.py          # run() — the core transport/growth/reaction solver
-│   ├── utils.py          # growth-function library, helpers, I/O, math utilities
+│   ├── utils.py          # growth-function library, helpers, math utilities
 │   └── output.py         # Model_output — turns raw run() output into
 │                          #   stratigraphic cross sections, facies maps, and
 │                          #   mass-balance diagnostics
