@@ -1,0 +1,13 @@
+# Minimal runtime dependencies for the tracerdiff package.
+# For the full development environment used to produce the paper's figures
+# (extra plotting/notebook tooling, docs, tests), see conda-envs/jax_env_pip.yml.
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+jax
+tqdm
+ipywidgets
+ipython
+cycler

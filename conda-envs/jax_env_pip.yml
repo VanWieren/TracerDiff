@@ -1,0 +1,33 @@
+name: jax_env
+channels:
+- conda-forge
+- defaults
+dependencies:
+# Base dependencies
+- numpy
+- "libblas=*=*accelerate"
+- matplotlib
+- ipywidgets
+- pyqt
+- pandas
+- scipy
+- sympy
+- scikit-learn
+- scikit-image
+- tqdm
+- ipython
+- ipympl
+- ipykernel
+- myst-nb
+- numpydoc
+- pydata-sphinx-theme<0.10.1
+- pytest-cov
+- pytest
+- ffmpeg
+- pip
+- pip:
+  - "jax[cpu]"
+  - dill
+  - rasterio
+  - seaborn
+  - polars

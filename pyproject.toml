@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tracerdiff"
+version = "0.1.0"
+description = "JAX-based tracer-advection/diffusion model of stratigraphic and geochemical proxy evolution in carbonate depositional systems"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Connor van Wieren" }]
+keywords = [
+    "stratigraphy",
+    "sediment transport",
+    "carbon isotopes",
+    "geochemistry",
+    "jax",
+    "numerical modeling",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "jax",
+    "tqdm",
+    "ipywidgets",
+    "ipython",
+    "cycler",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov", "jupyter"]
+
+[project.urls]
+Repository = "https://github.com/VanWieren/TracerDiff"
+Paper = "https://doi.org/10.1016/j.epsl.2025.119745"
+"Analysis / figures code" = "https://github.com/VanWieren/Paleozoic_CIEs"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+# pytest's default discovery patterns (test_*.py / *_test.py) don't match
+# a bare "test.py" -- widen the pattern so both tests/test.py and
+# tests/test_run.py get collected.
+python_files = ["test*.py"]
