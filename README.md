@@ -10,12 +10,19 @@ The model was developed for, and used to produce the results in:
 > van Wieren et al., 2026, *Earth and Planetary Science Letters*.
 > [https://doi.org/10.1016/j.epsl.2025.119745](https://doi.org/10.1016/j.epsl.2025.119745)
 
-The notebooks and data used to generate the figures in that paper live in a
-separate, archived analysis repository:
-[VanWieren/Paleozoic_CIEs](https://github.com/VanWieren/Paleozoic_CIEs).
+It has since also been used in a second paper:
+
+> van Wieren, Dyer & Husson, 2026, *Earth and Planetary Science Letters*.
+> [https://doi.org/10.1016/j.epsl.2026.120058](https://doi.org/10.1016/j.epsl.2026.120058)
+
+The notebooks and data used to generate the figures in the first paper live
+in a separate, archived analysis repository:
+[VanWieren/Paleozoic_CIEs](https://github.com/VanWieren/Paleozoic_CIEs); the
+second paper's notebooks live in
+[VanWieren/shuram_TOC_public](https://github.com/VanWieren/shuram_TOC_public).
 **This repository (`TracerDiff`) is the actively maintained home of the
-underlying model itself**, while
-`Paleozoic_CIEs` is a frozen snapshot of the paper-specific analysis.
+underlying model itself**, while those two are frozen snapshots of each
+paper's specific analysis.
 
 ## What the model does
 
@@ -156,6 +163,11 @@ If you use this model, please cite:
 
 > van Wieren, C. et al., 2026. *Earth and Planetary Science Letters*.
 > https://doi.org/10.1016/j.epsl.2025.119745
+
+and, if relevant, the second paper that also used this model:
+
+> van Wieren, C., Dyer, B., Husson, J.M., 2026. *Earth and Planetary Science Letters*.
+> https://doi.org/10.1016/j.epsl.2026.120058
 
 ## License
 

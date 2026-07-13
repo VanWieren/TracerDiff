@@ -42,8 +42,10 @@ dev = ["pytest", "pytest-cov", "jupyter"]
 
 [project.urls]
 Repository = "https://github.com/VanWieren/TracerDiff"
-Paper = "https://doi.org/10.1016/j.epsl.2025.119745"
-"Analysis / figures code" = "https://github.com/VanWieren/Paleozoic_CIEs"
+"Paper (2025)" = "https://doi.org/10.1016/j.epsl.2025.119745"
+"Paper (2026)" = "https://doi.org/10.1016/j.epsl.2026.120058"
+"Analysis / figures code (2025 paper)" = "https://github.com/VanWieren/Paleozoic_CIEs"
+"Analysis / figures code (2026 paper)" = "https://github.com/VanWieren/shuram_TOC_public"
 
 [tool.setuptools.packages.find]
 where = ["src"]
