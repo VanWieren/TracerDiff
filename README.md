@@ -161,13 +161,12 @@ pytest
 
 If you use this model, please cite:
 
-> van Wieren, C. et al., 2026. *Earth and Planetary Science Letters*.
-> https://doi.org/10.1016/j.epsl.2025.119745
+> van Wieren, C.S., Dyer, B., Husson, J.M., 2026, Correlative isotope excursions driven by transport, not global environmental change: *Earth and Planetary Science Letters*, vol. 673, p. 119745, [doi:10.1016/j.epsl.2025.119745](https://doi.org/10.1016/j.epsl.2025.119745)
 
 and, if relevant, the second paper that also used this model:
 
-> van Wieren, C., Dyer, B., Husson, J.M., 2026. *Earth and Planetary Science Letters*.
-> https://doi.org/10.1016/j.epsl.2026.120058
+> van Wieren, C.S., Dyer, B., Husson, J.M., 2026, Heterogeneous organic carbon remineralization as a driver for highly negative carbonate $\delta^{13}$}C excursions: *Earth and Planetary Science Letters*, vol. 687, p. 120058, [doi:10.1016/j.epsl.2026.120058](https://doi.org/10.1016/j.epsl.2026.120058)
+
 
 ## License
 
