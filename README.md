@@ -165,7 +165,7 @@ If you use this model, please cite:
 
 and, if relevant, the second paper that also used this model:
 
-> van Wieren, C.S., Dyer, B., Husson, J.M., 2026, Heterogeneous organic carbon remineralization as a driver for highly negative carbonate $\delta^{13}$C excursions: *Earth and Planetary Science Letters*, vol. 687, p. 120058, [doi:10.1016/j.epsl.2026.120058](https://doi.org/10.1016/j.epsl.2026.120058)
+> van Wieren, C.S., Dyer, B., Husson, J.M., 2026, Heterogeneous organic carbon remineralization as a driver for highly negative carbonate $\delta^{13}\mathrm{C}$ excursions: *Earth and Planetary Science Letters*, vol. 687, p. 120058, [doi:10.1016/j.epsl.2026.120058](https://doi.org/10.1016/j.epsl.2026.120058)
 
 
 ## License
